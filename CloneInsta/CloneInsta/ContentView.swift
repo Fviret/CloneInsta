@@ -17,8 +17,14 @@ struct ContentView: View {
                 .foregroundColor(.black)
                 
             }
+            ImagesGrind().tabItem { Image(systemName: "book.fill")
+                .foregroundColor(.black)
+                
             }
+            }
+            
         }
+        
     }
 }
 
@@ -76,8 +82,7 @@ struct InstaHeader: View {
                         Spacer(minLength: 15)
                         Button(action: {}, label: {
                                 Image(systemName: "paperplane")}).foregroundColor(.black)
-                        
-                    })
+                        })
     }
 }
 
